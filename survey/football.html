@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>EPL Survey</title>
+</head>
+
+<body>
+    <div class="top-header" id="top-header">
+        <h1 class="title-text" id="title">EPL Survey</h1>
+        <p class="desc-text" id="description">Which team's kit do YOU like the most?</p>
+    </div>
+    
+    <div class="form-sect" id="form-secct">
+        <form id="survey-form">
+            <label id="name-label" for="name">What's your name?* </label>
+                <input 
+                id="name" 
+                type="text" 
+                placeholder="John Smith" 
+                required>
+            
+            <br></br>
+
+            <label id="email-label" for="email">What's your email?* </label>
+            <input
+            id="email"
+            type="email"
+            placeholder="johnsmith@email.com"
+            required>
+
+<br></br>
+
+            <label id="number-label" for="age">How old are you? (optional)</label>
+                <input
+                id="number"
+                type="number"
+                placeholder="18"
+                min="0"
+                max="100">
+            
+<br></br>
+
+            <label for="dropdown">What team's kit is it?</label>
+                <select name="dropdown" id="dropdown">
+                    <optgroup label="Choose a team"></optgroup>
+                    <option value="ars">Arsenal</option>
+                    <option value="avfc">Aston Villa</option>
+                    <option value="bou">Bournemouth</option>
+                    <option value="bren">Brentford</option>
+                    <option value="bri">Brighton</option>
+                    <option value="burn">Burnley</option>
+                    <option value="cfc">Chelsea</option>
+                    <option value="eve">Everton</option>
+                    <option value="ful">Fulham</option>
+                    <option value="lfc">Liverpool</option>
+                    <option value="ltfc">Luton</option>
+                    <option value="mci">Man City</option>
+                    <option value="mufc">Man United</option>
+                    <option value="nufc">Newcastle</option>
+                    <option value="not">Nottm Forest</option>
+                    <option value="cpfc">Palace</option>
+                    <option value="shef">Sheffield</option>
+                    <option value="spurs">Tottenham</option>
+                    <option value="whu">West Ham</option>
+                    <option value="wol">Wolves</option>
+                </select>
+            
+            <br></br>
+
+            <label for="home-away">Home or Away Kit:</label>
+                <input 
+                type="radio" 
+                name="home-away"
+                value="home">Home
+                <input 
+                type="radio" 
+                name="home-away"
+                value="away">Away
+            
+<br></br>
+
+            <label for="checkbox">Which of these do you watch football on?</label><br></br>
+                <input 
+                type="checkbox" 
+                value="tv">Live TV
+                <input 
+                type="checkbox" 
+                value="stream">Streaming
+                <input 
+                type="checkbox"
+                value="highlights">Highlights
+                <input 
+                type="checkbox" 
+                value="etc">Other
+                <br></br>
+            <label for="feedback">How could we improve?:</label>
+
+<textarea id="feedback" name="feedback" rows="4" cols="50">
+Optional
+</textarea>
+<br></br>
+  <input id="submit" type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+
+
+</html>

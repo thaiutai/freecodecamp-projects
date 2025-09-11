@@ -1,0 +1,17 @@
+:root {
+    --dark: #000;
+    --medium: #1b1b1b;
+    --light: #2e2e2e;
+}
+
+.dark-mode-button {
+    background: transparent;
+    
+
+}
+
+
+body.dark-mode .targetElement {
+    background: #000000;
+}
+

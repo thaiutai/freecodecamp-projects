@@ -1,0 +1,66 @@
+:root{
+    --olive-dark: #1a6d00;
+    --olive-med: #2aab00;
+    --olive-light:  #b0ff96;
+    --olive-dark-comp: #53006D;
+    --olive-med-comp: #8100AB;
+    --olive-light-comp: #E596FF;
+}
+
+/* importing fonts locally */
+@font-face {
+    font-family: Coffee;
+    src: url("./fonts/Coffee_Soda.ttf");
+}
+
+@font-face {
+    font-family: Mont;
+    src: url('./fonts/mont/Mont-HeavyDEMO.otf');
+}
+
+/* media enquiry */
+
+@media screen and (max-width: 845px) and (orientation: portrait) {
+    #header-h1 {
+        font-size: medium;
+    }
+}
+
+* { 
+    outline: 1px solid red; 
+    margin: 0;
+    padding: 0;
+}
+
+/* body and main content styling - backgorund color, margin and padding */
+
+body {
+    background-color: var(--olive-light);
+    margin: 0;
+    padding: 0;
+}
+
+#header-h1 {
+    font-family: Mont, sans-serif;
+    font-size: 72px;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    color: var(--olive-dark);
+    font-weight:800;
+}
+
+#header-img {
+    width: 150px;
+}
+
+#title-1 {
+    font-weight:500;
+    color: var(--olive-med);
+}
+
+/* navigation bar styling */
+
+#nav-bar-logo {
+    width: 350px;
+}
